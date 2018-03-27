@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="32" max="32767" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="82" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel2" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jScrollPane1" min="-2" pref="390" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Apie Pocket Tracker"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="     Norint prid&#x117;ti &#x12f;ra&#x161;&#x105; &#x12f; lentel&#x119;:&#xa;Pirmiausia nustatykite ar tai pajamos ar i&#x161;laidos.&#xa;Tada pasirinkite kokia pinig&#x173; sum&#x105;.&#xa;Galiausiai prid&#x117;kite t&#x173; pinig&#x173; paskirt&#x12f;.&#xa;Prid&#x117;jus &#x12f;ra&#x161;&#x105; prie jo pridedama data, kada jis buvo prid&#x117;tas.&#xa;      Norint redaguoti turimus &#x12f;ra&#x161;us:&#xa;Paspaud&#x119; mygtuka &quot;Redaguoti&quot; nueikite &#x12f; redagavimo lang&#x105;.&#xa;Jei norite i&#x161;trinti &#x12f;ra&#x161;&#x105;, pasirinkite norim&#x105; &#x12f;ra&#x161;&#x105; ir spauskite &quot;trinti&quot;.&#xa;Jei norite redaguoti &#x12f;ra&#x161;&#x105;, dukart spustel&#x117;kite pele ant norimo &#xa;&#x12f;ra&#x161;o norimos srities. Atlik&#x119; redagavim&#x105;, spauskite klaviet&#x16b;ros &#xa;klavi&#x161;&#x105; ENTER. Nor&#x117;dami u&#x17e;tvirtinti redagavimus, spauskite &#xa;mygtuk&#x105; &quot;atnaujinti&quot;.&#xa;    Nor&#x117;dami i&#x161;saugoti ar ikelti ira&#x161;us.&#xa;Spauskite mygtuk&#x105; &quot;I&#x161;saugoti ar ikelti&quot;. Pasirinkite kur norite saugoti/&#xa;i&#x161; kur norite ikelti. Spauskite mygtuk&#x105; &quot;I&#x161;saugoti&quot;/&quot;&#x12e;kelti&quot;. &#x12e;ra&#x161;ai bus&#xa;i&#x161;saugomi arba bus ikeliami i&#x161; pasirinktos vietos txt failo.&#xa;    Nor&#x117;dami atlikti norim&#x173; &#x12f;ra&#x161;&#x173; paie&#x161;k&#x105; pagal datas&#xa;Spauskite mygtuk&#x105; &quot;Paie&#x161;ka&quot;. Pasirinkite norimas datas nuo kada&#xa;iki kada. Paspaud&#x119; mygtuk&#x105; &quot;ie&#x161;koti&quot; matysite visus turimus &#x12f;ra&#x161;us&#xa;patenka&#x10d;iu &#x12f; j&#x16b;s&#x173; nustatyk&#x105; dat&#x173; interval&#x105;.&#xa;&#xa;Program&#x105; k&#x16b;r&#x117;: Ignas Vai&#x10d;aitis"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/ezkiz medium.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

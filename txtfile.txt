@@ -1,0 +1,4 @@
+﻿pajamos & 1000 Eur & 2017-12-01 18:32 & gavau alga & 
+išlaidos & 21 Eur & 2017-12-11 18:32 & pirkau maisto & 
+išlaidos & 10 Eur & 2017-12-17 18:32 & buvau kine & 
+pajamos & 5 Eur & 2017-12-19 18:33 & laimejau loterijoje & 
